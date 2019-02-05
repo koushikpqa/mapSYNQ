@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="257000" started-at="2019-02-04T21:20:34Z" finished-at="2019-02-04T21:24:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="257000" started-at="2019-02-04T21:20:34Z" finished-at="2019-02-04T21:24:51Z">
+      <class name="com.MapsynqTestCases.MapsynqTestCases">
+        <test-method status="PASS" signature="initializeBrowser()[pri:0, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="initializeBrowser" is-config="true" duration-ms="12466" started-at="2019-02-04T21:20:34Z" finished-at="2019-02-04T21:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="launchApplication()[pri:1, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="launchApplication" duration-ms="12511" started-at="2019-02-04T21:20:46Z" finished-at="2019-02-04T21:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="promotionalWindow()[pri:2, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="promotionalWindow" duration-ms="10375" started-at="2019-02-04T21:20:59Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promotionalWindow -->
+        <test-method status="PASS" signature="LeftWindowClose()[pri:3, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="LeftWindowClose" duration-ms="10294" started-at="2019-02-04T21:21:09Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeftWindowClose -->
+        <test-method status="PASS" signature="CloseIncidentsTAB()[pri:4, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="CloseIncidentsTAB" duration-ms="10389" started-at="2019-02-04T21:21:20Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseIncidentsTAB -->
+        <test-method status="PASS" signature="OpenTrafficTAB()[pri:5, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="OpenTrafficTAB" duration-ms="10563" started-at="2019-02-04T21:21:30Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenTrafficTAB -->
+        <test-method status="PASS" signature="CloseTrafficTAB()[pri:6, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="CloseTrafficTAB" duration-ms="10274" started-at="2019-02-04T21:21:41Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:21:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTrafficTAB -->
+        <test-method status="PASS" signature="OpenIncidentsTAB()[pri:7, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="OpenIncidentsTAB" duration-ms="10572" started-at="2019-02-04T21:21:51Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenIncidentsTAB -->
+        <test-method status="PASS" signature="CloseIncidentsTAB2()[pri:8, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="CloseIncidentsTAB2" duration-ms="10243" started-at="2019-02-04T21:22:01Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseIncidentsTAB2 -->
+        <test-method status="PASS" signature="OpenParkingTAB()[pri:9, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="OpenParkingTAB" duration-ms="10546" started-at="2019-02-04T21:22:12Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenParkingTAB -->
+        <test-method status="PASS" signature="CloseParkingTAB()[pri:10, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="CloseParkingTAB" duration-ms="10378" started-at="2019-02-04T21:22:22Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseParkingTAB -->
+        <test-method status="PASS" signature="OpenCamerasTAB()[pri:11, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="OpenCamerasTAB" duration-ms="10545" started-at="2019-02-04T21:22:33Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenCamerasTAB -->
+        <test-method status="PASS" signature="OpenTollTAB()[pri:11, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="OpenTollTAB" duration-ms="10619" started-at="2019-02-04T21:22:43Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenTollTAB -->
+        <test-method status="PASS" signature="CloseTollTAB()[pri:12, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="CloseTollTAB" duration-ms="10304" started-at="2019-02-04T21:22:54Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTollTAB -->
+        <test-method status="PASS" signature="OpenAllTAB()[pri:13, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="OpenAllTAB" duration-ms="26177" started-at="2019-02-04T21:23:04Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAllTAB -->
+        <test-method status="PASS" signature="LeftWindowOpen()[pri:14, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="LeftWindowOpen" duration-ms="10293" started-at="2019-02-04T21:23:30Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeftWindowOpen -->
+        <test-method status="PASS" signature="ClickDirectionsTab()[pri:15, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="ClickDirectionsTab" duration-ms="10400" started-at="2019-02-04T21:23:41Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:23:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickDirectionsTab -->
+        <test-method status="PASS" signature="GetDirections()[pri:16, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="GetDirections" duration-ms="18145" started-at="2019-02-04T21:23:51Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetDirections -->
+        <test-method status="PASS" signature="clickonMobileAppLink()[pri:17, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="clickonMobileAppLink" duration-ms="10448" started-at="2019-02-04T21:24:09Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonMobileAppLink -->
+        <test-method status="PASS" signature="clickonGalactioLink()[pri:18, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="clickonGalactioLink" duration-ms="15599" started-at="2019-02-04T21:24:20Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonGalactioLink -->
+        <test-method status="PASS" signature="clickonSGGPSNav()[pri:19, instance:com.MapsynqTestCases.MapsynqTestCases@23a2f9]" name="clickonSGGPSNav" duration-ms="15683" started-at="2019-02-04T21:24:35Z" depends-on-methods="com.MapsynqTestCases.MapsynqTestCases.launchApplication" finished-at="2019-02-04T21:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonSGGPSNav -->
+      </class> <!-- com.MapsynqTestCases.MapsynqTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

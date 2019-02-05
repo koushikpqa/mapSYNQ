@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 05 02:50:34 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>257 seconds (257000 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.ClickDirectionsTab()'><b>ClickDirectionsTab</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.CloseIncidentsTAB()'><b>CloseIncidentsTAB</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.CloseIncidentsTAB2()'><b>CloseIncidentsTAB2</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.CloseParkingTAB()'><b>CloseParkingTAB</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.CloseTollTAB()'><b>CloseTollTAB</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.CloseTrafficTAB()'><b>CloseTrafficTAB</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.GetDirections()'><b>GetDirections</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>18</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.LeftWindowClose()'><b>LeftWindowClose</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.LeftWindowOpen()'><b>LeftWindowOpen</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.OpenAllTAB()'><b>OpenAllTAB</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>26</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.OpenCamerasTAB()'><b>OpenCamerasTAB</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.OpenIncidentsTAB()'><b>OpenIncidentsTAB</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.OpenParkingTAB()'><b>OpenParkingTAB</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.OpenTollTAB()'><b>OpenTollTAB</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.OpenTrafficTAB()'><b>OpenTrafficTAB</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.clickonGalactioLink()'><b>clickonGalactioLink</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>15</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.clickonMobileAppLink()'><b>clickonMobileAppLink</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.clickonSGGPSNav()'><b>clickonSGGPSNav</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>15</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.launchApplication()'><b>launchApplication</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>12</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+<tr>
+<td title='com.MapsynqTestCases.MapsynqTestCases.promotionalWindow()'><b>promotionalWindow</b><br>Test class: com.MapsynqTestCases.MapsynqTestCases</td>
+<td></td>
+<td>10</td>
+<td>com.MapsynqTestCases.MapsynqTestCases@23a2f9</td></tr>
+</table><p>
+</body>
+</html>
